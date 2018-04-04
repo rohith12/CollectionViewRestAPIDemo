@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38CCF85E2075622700244B28 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CCF85C2075622700244B28 /* CollectionViewCell.xib */; };
 		38DD743A2072FA4200BB4B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD74392072FA4200BB4B07 /* AppDelegate.swift */; };
 		38DD743C2072FA4200BB4B07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DD743B2072FA4200BB4B07 /* ViewController.swift */; };
 		38DD743F2072FA4200BB4B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DD743D2072FA4200BB4B07 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38CCF85C2075622700244B28 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		38DD74362072FA4200BB4B07 /* CollectionViewRestAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewRestAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DD74392072FA4200BB4B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38DD743B2072FA4200BB4B07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				38DD743D2072FA4200BB4B07 /* Main.storyboard */,
+				38CCF85C2075622700244B28 /* CollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CCF85E2075622700244B28 /* CollectionViewCell.xib in Resources */,
 				38DD74442072FA4200BB4B07 /* LaunchScreen.storyboard in Resources */,
 				38DD74412072FA4200BB4B07 /* Assets.xcassets in Resources */,
 				38DD743F2072FA4200BB4B07 /* Main.storyboard in Resources */,

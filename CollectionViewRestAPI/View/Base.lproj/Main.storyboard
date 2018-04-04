@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Resize Cells-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CollectionViewRestAPI" customModuleProvider="target" sceneMemberID="viewController">
@@ -84,7 +84,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mfJ-th-rqs"/>
+                    <navigationItem key="navigationItem" title="Resize Cells" id="mfJ-th-rqs"/>
                     <connections>
                         <outlet property="collectionView" destination="4Eh-xP-G17" id="A9v-er-chM"/>
                         <outlet property="collectionViewLayout" destination="Shc-cP-bHu" id="Q9M-e2-IWZ"/>

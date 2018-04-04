@@ -18,6 +18,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
+           collectionView.register(UINib.init(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
         if let flowLayout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
             flowLayout.estimatedItemSize = CGSize(width: 1,height: 1)
         }
@@ -50,13 +51,12 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
         cell.firstLbl.text = self.articles[indexPath.row].title
-        cell.firstLbl.preferredMaxLayoutWidth = 50
     
         cell.secondLbl.text = self.articles[indexPath.row].description
-        cell.secondLbl.preferredMaxLayoutWidth = 50
         return cell
     }
     
+ 
  
 
     
