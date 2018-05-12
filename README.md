@@ -3,7 +3,4 @@ CollectionView resizable cells, REST API Demo with delegation pattern and MVC de
 
 The project demonstrates Collectionviews, Resizable cells in collection view, REST API call, MVC and delegation pattern usage.
 
-
-
-
-<a href="https://people.cs.clemson.edu/~rraju/collectionView.png"></a>
+![CollectionView]https://people.cs.clemson.edu/~rraju/collectionView.png)
